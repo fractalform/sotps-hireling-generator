@@ -1,0 +1,195 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+    font-family: "Julius Sans One", serif;
+    line-height: 40px;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    color: #333;
+    margin: .67em 0;
+}
+h2, h3, h4, h5, h6 {
+	font-family: "Roboto Condensed", sans-serif;
+    line-height: 40px;
+    font-weight: 300;
+    font-style: normal;
+    text-transform: uppercase;
+    color: #444;
+    margin: 10px 0;
+}
+
+p {
+	font-family: "Roboto Condensed", sans-serif;
+	color: #444;
+	font-weight: 300;
+}
+
+h4 {
+	font-size: 23px;
+}
+
+h5 {
+	font-size: 19px;
+}
+
+h6 {
+	font-size: 15px;
+}
+
+.container {
+	padding: 0 10px;
+	max-width: 1170px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+.navigation ul {
+	list-style: none;
+	display: flex;
+	justify-content: center;
+}
+.navigation li {
+}
+
+.navigation a {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	letter-spacing: .5px;
+	text-transform: uppercase;
+	text-align: center;
+	display: inline-block;
+	color: #2d2d2d;
+	text-decoration: none;
+	font-size: 18px;
+	padding: 10px 20px;
+}
+
+.home-menu-item a {
+	padding-left: 0;
+}
+
+header {
+	height: 200px;
+}
+
+header h1 {
+	font-size: 40px;
+	font-family: 'Julius Sans One', sans-serif;
+	font-weight: 400;
+	color: #000;
+	text-align: center;
+	padding: 80px 0;
+}
+
+.main {
+	text-align: center;
+}
+
+a:hover {
+	color: gray;
+	transition: 0.5s;
+}
+
+nav {
+	
+}
+
+.main {
+	margin-top: 48px;
+}
+
+.roll {
+	margin: 0 15px;
+}
+
+.button img {
+	height: 60px;
+	width: 60px;
+	margin: 0 auto;
+}
+
+.button {
+	border: none;
+	cursor: pointer;
+	background-color: transparent;
+	height: 60px;
+	width: 60px;
+	background-image: url(https://raw.githubusercontent.com/fractalform/sotps-chargen/master/images/d20.png);
+	background-size: cover;
+}
+
+.button:focus {
+	outline: none;
+}
+
+p {
+	color: #000;
+}
+
+.inline {
+	display: flex;
+	justify-content: center;
+}
+
+.inline-result {
+	padding: 0 15px;
+	min-width: 40px;
+}
+
+.hidden {
+	opacity: 0;
+	display: none;
+}
+
+.padding-top-40 {
+	padding-top: 40px;
+}
+
+.steps {
+	padding-top: 90px;
+}
+
+.appear-slow {
+	transition: 1s;
+	transition-delay: 0.5s;
+	opacity: 1 !important;
+}
+
+.appear-fast {
+	transition: 1s;
+	opacity: 1!important;
+}
+
+.bonus-penalty {
+	padding: 15px 0;
+	opacity: .6;
+}
+
+.btn-continue {
+	margin-top: 35px;
+	margin-bottom: 20px;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: #888;
+    border: solid #BBB 2px;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: white;
+}
+
+.btn-continue:focus {
+	outline: none;
+}
+
+#empty-space {
+	height: 100vh;
+}
+
+.present {
+	display: block;
+}
